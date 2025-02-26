@@ -1,0 +1,234 @@
+/* Existing styles... */
+
+/* Hero Section */
+
+body {
+  background: url(./imgs/brand-logo.png);
+}
+
+
+fieldset h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+fieldset {
+  border: none;
+  justify-content: center;
+
+}
+
+legend {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px; /* Adjust spacing between options */
+  align-items: center;
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Space between radio button and label */
+}
+
+
+textarea {
+  width: 100%; /* Makes it take full width of its container */
+  max-width: 500px; /* Prevents it from becoming too wide */
+  height: 150px; /* Default height */
+  box-sizing: border-box; /* Ensures padding doesn't affect the width */
+  border: 2px solid #ccc;
+  border-radius: 5px; /* Smooth corners */
+  font-size: 14px;
+  padding: 10px; /* Proper spacing inside */
+  resize: none; /* Prevents resizing */
+  overflow-y: auto; /* Allows scrolling if content overflows */
+}
+
+
+
+input[type="submit"] {
+  background-color: #4caf50;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  margin: 0 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="reset"] {
+  color: rgb(19, 18, 18);
+  padding: 5px 10px 5px 10px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#buttons-grp {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#buttons-grp button,
+#buttons-grp input[type="submit"],
+#buttons-grp input[type="reset"] {
+  text-align: center;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid grey;
+  background-color: white;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.topnav {
+  position: fixed; /* Keeps menu at the top */
+  top: 0;
+  left: 50%; /* Start at the center */
+  color: black;
+  transform: translateX(-50%); /* Shift back by half its width */
+  width: 70%; /* Set width to 70% */
+  background-color: #605b5b79;
+  overflow: hidden;
+  z-index: 1000; /* Ensures it's above other content */
+  padding: 30px 0;
+  text-align: center; /* Centers the links inside */
+  border-radius: 30px; /* Optional: Adds rounded corners */
+  display: flex;
+  justify-content: center; /* Centers the nav links */
+  align-items: center; /* Aligns items vertically */
+  margin-top: 20px;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: purple;
+}
+
+#form-container {
+  background: white;
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 50px auto; /* Centers the form */
+  text-align: left; /* Ensures proper alignment */
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 15px;
+  background: #f5f5f5;
+  box-shadow: 0 2px 5px rgba(0,0,0, 0.1);
+  position: relative;
+  border-radius: 3rem;
+  margin: 24px 0px 0px;
+  font-size: 16px;
+  margin: 12px 137px 0;
+
+}
+
+.logo img{
+  width: 150px;
+  height: 41.08px;
+  padding: 0px 12px;
+}
+
+.nav-links{
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0px 12px;
+}
+
+.nav-links li a{
+  color: black;
+}
+
+.nav-links li a:hover{
+text-decoration: none;
+color: #aa46b1;
+}
+
+.nav-links li a:visited{
+  color:red
+}
+
+.btn-one {
+background: linear-gradient(60deg, #a0ade5, #6338E0);
+font-family: Roboto;
+font-size: 16px;
+border-radius: 2rem;
+padding: 17px 40px;
+color: white;
+border-color: none;
+}
+
+.hero {
+  padding: 2rem;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  box-sizing: inherit;
+}
+
+/* Hero Title */
+.hero-title h1 {
+  color: rgb(9, 8, 8); /* Set text color */
+  font-size: 88px; /* Set font size */
+  font-family: Roboto;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  line-height: 7rem
+}
+
+.hero p {
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+/* fieldset {
+  /* border: solid;
+  align-items: center;
+  margin: 0 auto; /* Centers horizontally */
